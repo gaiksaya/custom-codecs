@@ -54,6 +54,7 @@ allprojects {
 
 apply plugin: 'opensearch.opensearchplugin'
 apply plugin: 'opensearch.internal-cluster-test'
+apply plugin: 'opensearch.pluginzip'
 
 opensearchplugin {
   name 'opensearch-custom-codecs'
